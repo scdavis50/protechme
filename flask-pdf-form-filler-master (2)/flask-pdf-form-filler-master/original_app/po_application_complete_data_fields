@@ -1,0 +1,1166 @@
+---
+FieldType: Text
+FieldName: CauseNo
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ApplicantName
+FieldFlags: 8388608
+FieldValue: Karina Davis
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: RespondentName
+FieldFlags: 8388608
+FieldValue: Eddie
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: CourtType
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: CourtCounty
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ApplicantName2
+FieldFlags: 8388608
+FieldValue: Karina Davis
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ApplicantCounty
+FieldFlags: 8388608
+FieldValue: 3114 Pemberton Walk
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: RespondentName2
+FieldFlags: 8388608
+FieldValue: Eddie
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: RespondentCounty
+FieldFlags: 8388608
+FieldValue: 3114 Pemberton Walk
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: RespondentAddress
+FieldFlags: 8388608
+FieldValue: 3114 Pemberton Walk
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: SameFamilyCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: SameChildCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: WereMarriedCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: DatingCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ProtectChildCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: DatingSpouseCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: Child1Name
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: Child1ParentYesCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: Child1ParentNoCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: Child1County
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: Child2ParentNoCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: Child2ParentYesCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: Child2Name
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Child2County
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: Child3ParentNoCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: Child3ParentYesCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: Child3Name
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Child3County
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: Child4ParentNoCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: Child4ParentYesCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: Child4Name
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Child4County
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: OtherChildrenCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ChildrenMembersCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ChildOrdersCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: OtherAdult1Name
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: OtherAdult1County
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: OtherAdult2County
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: OtherAdult2Name
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: OtherCasesYesCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: OtherCasesNoCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: CaseStatus
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: OrderAttachedCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: OrderFiledCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: PriorOrderFiledCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: PriorOrderAttachedCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: NoThreatCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: NoViolenceCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: DontCommunicateCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ThreatOthersCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: CommunicateApplicantCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: CommunicateChildrenCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: Communicant
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: CommunicateOtherAdultsCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: Stay200CB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: Applicant200CB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: OtherAdults200CB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ApplicantWork200CB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: Work200CB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: School200CB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: StalkCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: CounselingCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: CHLCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: AnimalCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: Animal
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: ProvisionsCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: Provisions
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ApplicantResidence
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: ApplicantOwnedCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: JointlyOwnedCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: RespondentOwnedCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: LEOEscortCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ExclusiveUseCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: JointPropertyDescription
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: NoDamageCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: SpousalSupportCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ChildSupportOrdersCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: ChildSupportOrders
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: RemoveSchoolCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: RemoveJurisdictionCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ModifyScheduleCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: PayChildSupportCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: VacateNowCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: ApplicantResidence2
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: ConfidentialCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: PayFeesCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: ApplicantLocation
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ApplicantPhone
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ApplicantFax
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: Children200CB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: JointPropertyCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: ApplicantName3
+FieldFlags: 8388608
+FieldValue: Karina Davis
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Age
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Whathappened
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Month
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Day
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Year
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: UsedWeaponYesCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: UsedWeaponNoCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: WeaponType
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: ChildrenThereNoCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ChildrenThereYesCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: ChildrenThere
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: PoliceNoCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: PoliceYesCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: PoliceCalled
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: MedicalCareNoCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: MedicalCareYesCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: DescribeInjuries
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: HurtBefore
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: MedicalCarePastYesCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: PolicePastYesCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ChildrenTherePastYesCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: UsedWeaponPastYesCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: UsedWeaponPastNoCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ChildrenTherePastNoCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: PolicePastNoCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: MedicalCarePastNoCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: ChildrenTherePast
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: WeaponTypePast
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: DescribeInjuriesPast
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: ConvictedYesCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ConvictedNoCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: PastConvictions
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ApplicantName4
+FieldFlags: 8388608
+FieldValue: Karina Davis
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ApplicantDOB
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ApplicantStreet
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ApplicantCity
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ApplicantState
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ApplicantZipCode
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ApplicantCountry
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: WhathappenedD
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: MonthD
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: DayD
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: YearD
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: PolicePastYesDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ConvictedNoDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ConvictedYesDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ChildrenTherePastNoDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: UsedWeaponPastNoDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ChildrenTherePastYesDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: UsedWeaponPastYesDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: MedicalCarePastNoDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: MedicalCarePastYesDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: PolicePastNoCBD
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: UsedWeaponYesDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ChildrenThereYesDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: MedicalCareNoDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: PoliceNoDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: ChildrenThereNoDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: UsedWeaponNoDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: MedicalCareYesDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: PoliceYesDCB
+FieldFlags: 0
+FieldValue: None
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: ChildrenThereD
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: DescribeInjuriesD
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: HurtBeforeD
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: DescribeInjuriesPastD
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: WeaponTypePastD
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ChildrenTherePastD
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: PoliceCalledD
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: WeaponTypeD
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: PastConvictionsD
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: CountyFiling
+FieldFlags: 8388608
+FieldValue: None
+FieldJustification: Left

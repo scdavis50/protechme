@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <title>PO Application Form</title>
+        <h1>PO Application form</h1>
+        <form method="post">
+        <p>Please type in your email?</p>
+        <input type="text" name="email"><br>
+        <p>What is your Cause Number</p>
+        <input type="text" name="CauseNo"><br>
+        <p>What is the Court Type</p>
+        <input type="text" name="CourtType"><br>
+        <p>In which county is the court?</p>
+        <input type="text" name="CourtCounty"><br>
+        <p>What is the Applicant Name?</p>
+        <input type="text" name="ApplicantName"><br>
+        <p>What is the respondent name?</p>
+        <input type="text" name="RespondentName"><br>
+        <h4>1 Parties</h4>
+        <p>What is your full name</p>
+        <input type="text" name="ApplicantName2"><br>
+        <p>What is your home address?</p>
+        <input type="text" name="ApplicantCounty"><br><br>
+        <p>Who do you want protection from?(The respondent)</p>
+        <input type="text" name="RespondentName2"><br><br>      
+        <p>The respondent county?</p>
+        <input type="text" name="RespondentCounty"><br><br>      
+        <p>The respondent address?</p>
+        <input type="text" name="RespondentAddress"><br><br>        
+        <p>Check all that apply:</p>
+        <input type="checkbox" name="SameFamilyCB">The Applicant and Respondent are or were members of the same family or household.<br>
+        <input type="checkbox" name="SameChildCB">The Applicant and Respondent are parents of the same child or children.<br>
+        <input type="checkbox" name="WereMarriedCB">The Applicant and Respondent used to be married.<br>
+        <input type="checkbox" name="DatingCB">The Applicant and Respondent are or were dating.<br>
+        <input type="checkbox" name="ProtectChildCB">The Applicant is an adult asking for protection for the Children named below from child abuse and/or family or dating violence.<br>
+        <input type="checkbox" name="DatingSpouseCB">The Applicant is dating or married to a person who was married to or dating the Respondent.<br>
+        
+        <h4>Children: The Applicant is asking for protection for these Children under age 18:</h4>
+        <p>
+            Name:
+            <span style="padding-left:175px;">
+                Is Respondent the biological parent?
+            </span>
+            <span style="padding-left:50px;">
+                County of Residence:
+            </span>
+        </p>
+        <p>
+            a:
+            <input type="text" name="Child1Name">
+            <span style="padding-left:15px;">
+                <input type="radio" name="Child1ParentCBR" value="yes"> Yes
+                <input type="radio" name="Child1ParentCBR" value="no">No
+            </span>
+            <span style="padding-left:195px;">
+                <input type="text" name="Child1County">
+            </span>
+        </p>
+        <p>
+            b:
+            <input type="text" name="Child2Name">
+            <span style="padding-left:15px;">
+                <input type="radio" name="Child2ParentCBR" value="yes"> Yes
+                <input type="radio" name="Child2ParentCBR" value="no">No
+            </span>
+            <span style="padding-left:195px;">
+                <input type="text" name="Child2County">
+            </span>
+        </p>
+        <p>
+            c:
+            <input type="text" name="Child3Name">
+            <span style="padding-left:15px;">
+                <input type="radio" name="Child3ParentCBR" value="yes"> Yes
+                <input type="radio" name="Child3ParentCBR" value="no">No
+            </span>
+            <span style="padding-left:195px;">
+                <input type="text" name="Child3County">
+            </span>
+        </p>
+        <p>
+            d:
+            <input type="text" name="Child4Name">
+            <span style="padding-left:15px;">
+                <input type="radio" name="Child4ParentCBR" value="yes"> Yes
+                <input type="radio" name="Child4ParentCBR" value="no">No
+            </span>
+            <span style="padding-left:195px;">
+                <input type="text" name="Child4County">
+            </span>
+        </p>
+        <p>Check all that apply:</p>
+        <input type="checkbox" name="OtherChildrenCB">Other children are listed on a sheet attached to this Application.<br>
+        <input type="checkbox" name="ChildrenMembersCB">The Children are or were members of the Applicant’s family or household.<br>
+        <input type="checkbox" name="ChildOrdersCB">The Children are the subject of a court order affecting access to them or their support.<br>
+        <h4>
+            Other Adults: The Applicant is asking for protection for these Adults, who are or were members of the
+            Applicant’s family or household, or are in a dating or marriage relationship with the Applicant.
+        </h4>
+        <p>
+            Name:
+            <span style="padding-left:175px;">
+                County of Residence:
+            </span>
+        </p>
+        <p>
+            a:
+            <input type="text" name="OtherAdult1Name">
+            <span style="padding-left:20px;">
+            <input type="text" name="OtherAdult1County">
+            </span>
+        </p>
+        <p>
+            b:
+            <input type="text" name="OtherAdult2Name">
+            <span style="padding-left:20px;">
+            <input type="text" name="OtherAdult2County">
+            </span>
+        </p>           
+        <h4>4 Other Court Cases: Are there other court cases, like divorce, custody, support, involving the Applicant, Respondent, or the Children?</h4>
+        <input type="radio" name="OtherCasesCBR" value="yes"> Yes
+        <input type="radio" name="OtherCasesCBR" value="no">No
+        <p>If “Yes,” say what kind of case and if the case is active or completed.</p>
+        <input type="text" name="CaseStatus">
+        <p>If “completed,” (check one):</p>
+        <input type="radio" name="OrderAttachedFiledCBR" value="yes">A copy of the final order is attached.<br>
+        <input type="radio" name="OrderAttachedFiledCBR" value="no">A copy of the final order will be filed before the hearing on this Application.
+        <p>
+            5 Grounds: Why is the Applicant asking for this Protective Order?<br>
+            Check one or both:<br>
+            The Respondent committed family violence and is likely to commit family violence in the future.<br>
+            The Respondent violated a prior Protective Order that expired, or will expire in 30 days or less. A copy of the<br>
+            Order is (check one):<br>
+            <input type="radio" name="PriorOrderFiledAttachedCBR" value="yes">Attached, or<br>
+            <input type="radio" name="PriorOrderFiledAttachedCBR" value="no">Not available now but will be filed before the hearing on this Application
+        </p>
+        <h4>
+            The Applicant requests a PROTECTIVE ORDER and asks the Court to make all Orders marked with a check ✔
+        </h4>
+        <h4>6 ✔ Orders to Prevent Family Violence</h4>
+        <h4>The Applicant asks the Court to order the Respondent to (Check all that apply):</h4>
+        <input type="checkbox" name="NoViolenceCB">a. Not commit family violence against any person named on page 1 of this form.<br>
+        <input type="checkbox" name="NoThreatCB">b. Not communicate in a threatening or harassing manner with any person named on page 1 of this form.<br>
+        <input type="checkbox" name="ThreatOthersCB">c. Not communicate a threat through any person to any person named on page 1 of this form.<br>
+        <input type="checkbox" name="DontCommunicateCB">d. Not communicate or attempt to communicate in any manner with (Check all that apply):<br>
+        <span style="padding-left:20px;">
+            <input type="checkbox" name="CommunicateApplicantCB">Applicant
+            <input type="checkbox" name="CommunicateChildrenCB">Children
+            <input type="checkbox" name="CommunicateOtherAdultsCB">Other Adults named on page 1 of this form.<br>
+            The Respondent may communicate through:
+            <input type="text" name="Communicant">
+            or other person the Court
+            appoints. Good cause exists for prohibiting the Respondent’s direct communications.
+        </span>
+        <br>
+        <input type="checkbox" name="Stay200CB">e. Not go within 200 yards of the (Check all that apply):<br>
+            <span style="padding-left:20px;">
+                <input type="checkbox" name="Applicant200CB">Applicant
+                <input type="checkbox" name="Children200CB#0">Children
+                <input type="checkbox" name="OtherAdults200CB">Other Adults named on page 1 of this form.<br>
+            </span>
+        <input type="checkbox" name="Work200CB">f. Not go within 200 yards of the residence, workplace or school of the (Check all that apply):<br>
+            <span style="padding-left:20px;">
+                <input type="checkbox" name="ApplicantWork200CB">Applicant
+                <input type="checkbox" name="Children200CB#1">Other Adults named on page 1 of this form.<br>
+            </span>
+        <input type="checkbox" name="School200CB">g. Not go within 200 yards of the Children’s residence, child-care facility, or school, except as specifically authorized in a possession schedule entered by the Court.<br>
+        <input type="checkbox" name="StalkCB">h. Not stalk, follow or engage in conduct directed specifically to anyone named on page 1 of this form that is reasonably likely to harass, annoy, alarm, abuse, torment, or embarrass them.<br>
+        <h4>The Applicant also asks the Court to make these Orders (Check all that apply):</h4>
+        <input type="checkbox" name="CHLCB">i. Suspend any license to carry a concealed handgun issued to the Respondent under state law.<br>
+        <input type="checkbox" name="CounselingCB">j. Require the Respondent to complete a battering intervention and prevention program; or if no such program
+        is available, counseling with a social worker, family service agency, physician, psychologist, licensed
+        therapist, or licensed professional counselor; and pay all costs for the counseling or treatment ordered.<br>
+        <input type="checkbox" name="AnimalCB">k. Prohibit the Respondent from harming, threatening, or interfering with the care, custody, or control of the following
+        pet, companion animal or assistance animal:<input type="text" name="Animal">(describe the animal).<br>
+        <input type="checkbox" name="ProvisionsCB">l. Require the Respondent to follow these provisions to prevent or reduce the likelihood of family violence.<br>
+        <input type="text" name="Provisions">
+        The law requires a trial court issuing a protective order to prohibit the Respondent from possessing a firearm or
+        ammunition, unless the Respondent is a peace officer actively engaged in employment as a sworn, full-time paid
+        employee of a state agency or political subdivision.      
+        <h4>7 Property Orders</h4>
+        <p>The Residence located at:<input type="text" name="ApplicantResidence"></p>
+        (Check one):<br>
+        <input type="checkbox" name="JointlyOwnedCB">is jointly owned or leased by the Applicant and Respondent;<br>
+        <input type="checkbox" name="ApplicantOwnedCB">is solely owned or leased by the Applicant; or<br>
+        <input type="checkbox" name="RespondentOwnedCB">is solely owned or leased by the Respondent; and the Respondent is obligated to support the Applicant<br>
+        or a child in the Applicant’s possession.
+        <h4>The Applicant also asks the Court to make these orders (Check all that apply):</h4>
+        <input type="checkbox" name="ExclusiveUseCB">The Applicant to have exclusive use of the Residence identified above, and the Respondent must vacate
+        the Residence.<br>
+        <input type="checkbox" name="LEOEscortCB">The sheriff, constable, or chief of police shall provide a law enforcement officer to accompany the Applicant to the
+        Residence, to inform the Respondent that the Court has ordered the Respondent excluded from the Residence, to
+        provide protection while the Applicant takes possession of the Residence and the Respondent removes any neces-
+        sary personal property, and, if the Respondent refuses to vacate the Residence, to remove the Respondent from
+        the Residence and arrest the Respondent for violating the Court’s Order.
+        <input type="checkbox" name="JointPropertyCB#0">The Applicant to have exclusive use of the following property that the Applicant and Respondent jointly own or lease:<br>
+        <input type="text" name="JointPropertyDescription">
+        <br>
+        <input type="checkbox" name="NoDamageCB">
+        The Respondent must not damage, transfer, encumber, or otherwise dispose of any property jointly owned or
+        leased by the parties, except in the ordinary course of business or for reasonable and necessary living expenses,
+        including, but not limited to, removing or disabling any vehicle owned or possessed by the Applicant or jointly
+        owned or possessed by the parties (whether so titled or not).
+        <h4>8 <input type="checkbox" name="SpousalSupportCB">Spousal Support Order</h4>
+        <p>The Applicant is married to the Respondent or otherwise legally entitled to support from the Respondent and asks
+the Court to order the Respondent to pay support in an amount set by the Court.</p>
+        <h4>9 <input type="checkbox" name="ChildSupportOrdersCB">Orders Related to Removal, Possession and Support of Children</h4>
+        <p>The Respondent is a parent of the following of the Applicant’s children:
+            <input type="text" name="ChildSupportOrders"><br>
+            And, the Applicant asks for these Orders in the best interest of the people named on page 1 of this form.<br>
+            Check all that apply:<br>
+            <input type="checkbox" name="JointlyOwnedCB">The Applicant to have exclusive use of the following property that the Applicant and Respondent jointly own or lease:<br>
+            <input type="checkbox" name="RemoveSchoolCB">The Respondent must not remove the children from the Applicant’s possession or from their child-care facility or
+            school, except as specifically authorized in a possession schedule entered by the Court.
+            <input type="checkbox" name="RemoveJurisdictionCB">The Respondent must not remove the children from the jurisdiction of the Court.<br>
+            <input type="checkbox" name="ModifyScheduleCB">Establish or modify a schedule for the Respondent’s possession of the Children, subject to any terms and conditions necessary for the safety of the Applicant or the Children.<br>
+            <input type="checkbox" name="PayChildSupportCB">Require the Respondent to pay child support in an amount set by the Court.
+        </p>
+
+        <h4><input type="checkbox" name="ProtectiveOrderCB">10 Temporary Ex Parte PROTECTIVE ORDER</h4>
+        <p>
+            Based on the information in the attached Affidavit or Declaration, there is a clear and present danger of family violence
+            that will cause the Applicant, Children or Other Adults named on page 1 of this form immediate and irreparable injury,
+            loss and damage, for which there is no adequate remedy at law. Applicant asks the Court to issue a Temporary Ex Parte
+            Protective Order immediately without bond, notice or hearing.
+        </p>
+        <h4>11 <input type="checkbox" name="VacateNowCB"> Ex Parte Order: Vacate Residence Immediately</h4>
+        <p>
+            The Applicant now lives with the Respondent at <input type="text" name="ApplicantResidence2"> or has resided at this
+            Residence within the 30 days prior to filing this Application. The Respondent committed family violence against a
+            member of the household within the 30 days prior to the filing of this Application, as described in the attached
+            Affidavit or Declaration. There is a clear and present danger that the Respondent is likely to commit family violence
+            against a member of the household. The Applicant is available for a hearing but asks the Court to issue a Temporary
+            Ex Parte Protective Order immediately without bond, notice or hearing:<br>
+            • Granting the Applicant exclusive use and possession of the Residence and ordering the Respondent to vacate
+            the Residence immediately, and remain at least 200 yards away from the Residence pending further Order of the
+            Court; and<br>
+            • Directing the sheriff, constable, or chief of police to provide a law enforcement officer to accompany the Applicant
+            to the Residence, to inform the Respondent that the Court has ordered the Respondent to vacate the Residence,
+            and to provide protection while the Applicant either takes possession of the Residence or removes necessary
+            personal property."> or has resided at this
+        </p>
+        <h4>12<input type="checkbox" name="ConfidentialCB"> Keep Information Confidential</h4>
+        <p>
+            The Applicant asks the Court to keep addresses and telephone numbers for residences, workplaces, schools, and
+            childcare facilities confidential.
+        </p>
+        <h4>13<input type="checkbox" name="PayFeesCB"> Fees And Costs</h4>
+        <p>
+            The Applicant asks the Court to order the Respondent to pay fees for service of process, all other fees and costs of
+            Court, and reasonable attorneys’ fees, if applicable.
+        </p>
+        Address where Applicant may be contacted: <input type="text" name="ApplicantLocation"><br>
+        Phone # where Applicant may be contacted: <input type="text" name="ApplicantPhone"> Fax #: <input type="text" name="ApplicantFax"><br>
+        (List another address/phone if you want yours kept confidential)
+        <h3>AFFIDAVIT</h3>
+        <p>County of <input type="text" name=""></p>
+        <p>State of Texas</p>
+        <p>
+            My name is <input type="text" name="ApplicantName3"> (First Middle Last). I am <input type="text" name="Age"> years old and otherwise
+            competent to make this Affidavit. The information and events described in this Affidavit are true and correct.
+        </p>
+        <p>
+            1. Describe the most recent time the Respondent hurt you or threatened to hurt you:<br>
+            <textarea rows="4" cols="50" name="Whathappened"></textarea>
+        </p>
+        <p>
+            2. What date did this happen?(month/day/year) <input type="text" cols=2 name="Month"> /  <input type="text" name="Day"> /  <input type="text" name="Year"><br>
+        </p>
+        <p>
+            3. Was a weapon involved?
+            <input type="radio" name="UsedWeaponCBR" value="yes">Yes
+            <input type="radio" name="UsedWeaponCBR" value="no">No.
+            If yes, what kind?<input type="text" name="WeaponType">
+            <br>
+        </p>
+        <p>
+            4. Were any children there?
+            <input type="radio" name="ChildrenThereCBR" value="yes">Yes
+            <input type="radio" name="ChildrenThereCBR" value="no">No.
+            If yes, who?<input type="text" name="ChildrenThere">
+            <br>
+        </p>
+        <p>
+            5. Did you call the police?
+            <input type="radio" name="PoliceCBR" value="yes">Yes
+            <input type="radio" name="PoliceCBR" value="no">No.
+            If yes, what happened?<input type="text" name="PoliceCalled">
+            <br>
+        </p>
+        <p>
+            6. Did you get medical care?
+            <input type="radio" name="MedicalCareCBR" value="yes">Yes
+            <input type="radio" name="MedicalCareCBR" value="no">No.
+            If yes, describe your injuries:<br>
+            <textarea rows="4" cols="50" name="DescribeInjuries"></textarea>
+            <br>
+        </p>
+        <p>
+            7. Has the Respondent ever threatened or hurt you before? Describe below, including date(s).<br>
+            <textarea rows="4" cols="50" name="HurtBefore"></textarea>
+        </p>
+        <p>
+            8. Were weapons ever involved?
+            <input type="radio" name="UsedWeaponPastCBR" value="yes">Yes
+            <input type="radio" name="UsedWeaponPastCBR" value="no">No.
+            If yes, what kind?<input type="text" name="WeaponTypePast">
+            <br>
+        </p>
+        <p>
+            9. Were any children there?
+            <input type="radio" name="ChildrenTherePastCBR" value="yes">Yes
+            <input type="radio" name="ChildrenTherePastCBR" value="no">No.
+            If yes, who?<input type="text" name="ChildrenTherePast">
+            <br>
+        </p>
+        <p>
+            10. Have the police ever been called?
+            <input type="radio" name="PolicePastCBR" value="yes">Yes
+            <input type="radio" name="PolicePastCBR" value="no">No.
+            <br>
+        </p>
+        <p>
+            11. Did you ever have to get medical care?
+            <input type="radio" name="MedicalCarePastCBR" value="yes">Yes
+            <input type="radio" name="MedicalCarePastCBR" value="no">No.
+            If yes, describe your injuries:<br>
+            <textarea rows="4" cols="50" name="DescribeInjuriesPast"></textarea>
+            <br>
+        </p>
+        <p>
+            12. Has the Defendant ever been convicted of family violence?
+            <input type="radio" name="ConvictedCBR" value="yes">Yes
+            <input type="radio" name="ConvictedCBR" value="no">No.<br>
+            If yes, list when and in which county and state the convictions occurred:<br>
+            <textarea rows="4" cols="50" name="PastConvictions"></textarea>
+        </p>
+        On ____/ _____/ _____ the Applicant ______________________ personally appeared before me, the un-
+        dersigned notary. After being sworn, the Applicant stated that she/he is qualified to make this oath, that she/he has read
+        the foregoing Application and Affidavit, that she/he has personal knowledge of the facts asserted, and the facts as-
+        serted are true and to the best of her/his knowledge and belief.
+        Subscribed and sworn to before me on ____/ ____/ _______.<br>
+        <h3>DECLARATION</h3>
+        <p>
+            County of <input type="text" name="CountyFiling"><br>
+            State of Texas
+        </p>
+        <p>
+            My name is <input type="text" name="ApplicantName4"> (First Middle Last), my date of birth is <input type="text" name="ApplicantDOB">,
+            and my address is <input type="text" name="ApplicantStreet">(Street),
+            <input type="text" name="ApplicantCity">(City),
+            <input type="text" name="State">(State),
+            <input type="text" name="ApplicantZipCode">(ZipCode),
+            <input type="text" name="ApplicantCountry">(Country).<br><br>
+            I declare under penalty of perjury that the foregoing is true and correct.<br><br>
+            Executed in ___________ County, State of ________, on the ________ day of_________ (Month), ________ (Year).
+            ___________________________________________(Declarant Signature).<br>
+        </p>
+        <p>
+            1. Describe the most recent time the Respondent hurt you or threatened to hurt you:<br>
+            <textarea rows="4" cols="50" name="WhathappenedD"></textarea>
+        </p>
+        <p>
+            2. What date did this happen?(month/day/year) <input type="text" name="MonthD"> /  <input type="text" name="DayD"> /  <input type="text" name="YearD"><br>
+        </p>
+        <p>
+            3. Was a weapon involved?
+            <input type="radio" name="UsedWeaponDCBR">Yes
+            <input type="radio" name="UsedWeaponDCBR">No.
+            If yes, what kind?<input type="text" name="WeaponTypeD">
+            <br>
+        </p>
+        <p>
+            4. Were any children there?
+            <input type="radio" name="ChildrenThereDCBR">Yes
+            <input type="radio" name="ChildrenThereDCBR">No.
+            If yes, who?<input type="text" name="ChildrenThereD">
+            <br>
+        </p>
+        <p>
+            5. Did you call the police?
+            <input type="radio" name="PoliceDCBR">Yes
+            <input type="radio" name="PoliceDCBR">No.
+            If yes, what happened?<input type="text" name="PoliceCalledD">
+            <br>
+        </p>
+        <p>
+            6. Did you get medical care?
+            <input type="radio" name="MedicalCareDCBR">Yes
+            <input type="radio" name="MedicalCareDCBR">No.
+            If yes, describe your injuries:<br>
+            <textarea rows="4" cols="50" name="DescribeInjuriesD"></textarea>
+            <br>
+        </p>
+        <p>
+            7. Has the Respondent ever threatened or hurt you before? Describe below, including date(s).<br>
+            <textarea rows="4" cols="50" name="HurtBeforeD"></textarea>
+        </p>
+        <p>
+            8. Were weapons ever involved?
+            <input type="radio" name="UsedWeaponPastDCBR">Yes
+            <input type="radio" name="UsedWeaponPastDCBR">No.
+            If yes, what kind?<input type="text" name="WeaponTypePastD">
+            <br>
+        </p>
+        <p>
+            9. Were any children there?
+            <input type="radio" name="ChildrenTherePastDCBR">Yes
+            <input type="radio" name="ChildrenTherePastDCBR">No.
+            If yes, who?<input type="text" name="ChildrenTherePastD">
+            <br>
+        </p>
+        <p>
+            10. Have the police ever been called?
+            <input type="radio" name="PolicePastDCBR">Yes
+            <input type="radio" name="PolicePastDCBR">No.
+            <br>
+        </p>
+        <p>
+            11. Did you ever have to get medical care?
+            <input type="radio" name="MedicalCarePastDCBR">Yes
+            <input type="radio" name="MedicalCarePastDCBR">No.
+            If yes, describe your injuries:<br>
+            <textarea rows="4" cols="50" name="DescribeInjuriesPastD"></textarea>
+            <br>
+        </p>
+        <p>
+            12. Has the Defendant ever been convicted of family violence?
+            <input type="radio" name="ConvictedDCBR">Yes
+            <input type="radio" name="ConvictedDCBR">No.<br>
+            If yes, list when and in which county and state the convictions occurred:<br>
+            <textarea rows="4" cols="50" name="PastConvictionsD"></textarea>
+        </p>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form> 
+    </body>
+</html>

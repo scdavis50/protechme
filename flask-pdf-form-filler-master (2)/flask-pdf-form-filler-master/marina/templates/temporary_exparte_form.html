@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <title>Temporary Exparte Form</title>
+        <h1>Temporary Exparte form</h1>
+        <form method="post">
+            <p>Please type in your email!</p>
+            <input type="text" name="email"><br>
+            <p>What is your Cause Number</p>
+            <input type="text" name="CauseNo"><br>
+            <p>What is the Court Type</p>
+            <input type="text" name="CourtType"><br>
+            <p>In which county is the court?</p>
+            <input type="text" name="CourtCounty"><br>
+            <p>What is the Applicant Name?</p>
+            <input type="text" name="ApplicantName"><br>
+            <p>What is the respondent name?</p>
+            <input type="text" name="RespondentName"><br>
+            <h4>Temporary Ex Parte Protective Order</h4>
+            <p>
+                Go to the court hearing on: <input type="text" name="CourtDate"> (date), Time: 
+                <input type="text" name="CourtTime"> 
+                <input type="radio" name="CourtTimeCBR" value="yes">Yes
+                <input type="radio" name="CourtTimeCBR" value="no">No. <br>
+                Court address: <input type="text" name="CourtAddress">
+            </p>
+            <p>
+                Findings: The Court finds from the sworn Affidavit or Declaration attached to the Application for Protective Order
+                filed in this case that there is a clear and present danger that the Respondent named below will commit acts of family
+                violence that will cause the Applicant, Children and/or Other Adults named below immediate and irreparable injury,
+                loss and damage, for which there is no adequate remedy at law. The Court, therefore, enters this Temporary Ex Parte
+                Protective Order without further notice to the Respondent or hearing. No bond is required
+            </p>
+            <p>
+                <h4>1 Respondent</h4> The person named below must follow all Orders marked with a check <br>
+                Name <input type="text" name="RespondentName1"> County of Residence <input type="text" name="RespondentCounty"> <br>
+            </p>
+            <p>
+                <h4>2 Protected people</h4> The following people are protected by the terms of this PROTECTIVE ORDER: <br>
+                <span style="padding-left:90px;">
+                    Name
+                </span>
+                <span style="padding-left:100px;">
+                    County of Residence:
+                </span><br>
+                Applicant: <input type="text" name="ApplicantName1"> <input type="text" name="ApplicantCounty"><br>
+                Children 1 <input type="text" name="Child1Name"> <input type="text" name="Child1County"><br>
+                Children 2 <input type="text" name="Child2Name"> <input type="text" name="Child2County"><br>
+                Children 3 <input type="text" name="Child3Name"> <input type="text" name="Child3County"><br>
+                Other <input type="text" name="OtherAdultName"> <input type="text" name="OtherAdultCounty"><br>
+                Adults <input type="text" name="OtherAdultName1"> <input type="text" name="OtherAdult2County"><br>
+                <p>
+                    <h4>3 Temporary Orders </h4> — To prevent family violence, the Court orders the Respondent to obey all orders marked
+                    with a check.<br>
+                    <h4>The Respondent (person named in 1) must:</h4><br>
+                    a.<input type="checkbox" name="HarmCB"> Not commit an act against any person named in 2 above that is intended to result in physical harm, bodily
+                    injury, assault, or sexual assault or that is a threat that reasonably places those people in fear of imminent
+                    physical harm, bodily injury, assault, or sexual assault. <br>
+                    b.<input type="checkbox" name="HarrassCB"> Not communicate in a threatening or harassing manner with any person named in 2 above.<br>
+                    c.<input type="checkbox" name="CommunicateCB">  Not communicate a threat through any person to any person named in 2 above.
+                </p>
+                <p>
+                    d. <input type="checkbox" name="DontCommunicateCB#0">Not communicate or attempt to communicate in any manner with: (Check all that apply) <br>
+                    <input type="checkbox" name="ApplicantCommunicateCB"> Applicant <input type="checkbox" name="ChildrenCommunicateCB"> Children<input type="checkbox" name="OtherAdultCommunicateCB"> 
+                    Other Adults named in 2 above. The Respondent may communicate through:<br>
+                    <input type="text" name="Communicant"> or other person the Court appoints <br>
+                    <input type="text" name="School200CB#1"> Good cause exists for prohibiting the Respondent’s direct communications.
+                </p>
+                <p>
+                    e. <input type="checkbox" name="Dont200CB">Not go within 200 yards of the: (Check all that apply)
+                    <input type="checkbox" name="Applicant200CB"> Applicant 
+                    <input type="checkbox" name="Children200CB"> Children 
+                    <input type="checkbox" name="OtherAdult200CB"> Other Adults named in 2 above. (except to go to court hearings) <br>
+                </p>
+                <p>
+                    f. <input type="checkbox" name="WorkResidence200CB">Not go within 200 yards of the Residence, workplace or school of the: (Check all that apply) <br>
+                    <input type="checkbox" name="ApplicantWork200CB">Applicant <input type="checkbox" name="OtherAdultWork200CB"> Other Adults named in 2 above.<br>
+                    The addresses of the prohibited locations are: (Check all that apply)<br>
+                    <input type="checkbox" name="ConfidentialAddressCB"> Deemed confidential. The Clerk is ordered to strike the information from all public court records and maintain
+                    a confidential record of the information for Court use only.<br>
+                    <input type="checkbox" name="AddressDisclosedCB"> Disclosed as follows:<br>
+                    Applicant’s Residence: <input type="text" name="ApplicantResidence"><br>
+                    Applicant’s Workplace/School: <input type="text" name="ApplicantWorkSchool"><br>
+                    Other: <input type="text" name="OtherLocation"><br>
+                </p>
+                <p>
+                    g.✔ Not possess a firearm or ammunition, unless the Respondent is a peace officer actively engaged in employment as a sworn, full-time paid employee of a state agency or political subdivision.
+                </p>
+                <p>
+                    h.<input type="checkbox" name="School200CB#0"> Not go within 200 yards of the Children’s Residence, child-care facility, or school.<br>
+                        The addresses of the prohibited locations are: (Check all that apply)<br>
+                        <input type="checkbox" name="ConfidentialSchoolCB">Deemed confidential. The Clerk is ordered to strike the information from all public court records and maintain
+                        a confidential record of the information for Court use only.<br>
+                        <input type="checkbox" name="SchoolDisclosedCB"> Disclosed as follows:<br>
+                        Children’s Residence: <input type="text" name="ChildrenResidence"><br>
+                        Children’s Child-care/School: <input type="text" name="ChildrenSchool"><br>
+                        Other: <input type="text" name="ChildrenOtherLocation"><br>
+                </p>
+                <p>
+                    i.<input type="checkbox" name="StalkCB"> Not stalk, follow or engage in conduct directed specifically toward the Applicant, Children, or Other Adults
+                    named in 2 above that is reasonably likely to harass, annoy, alarm, abuse, torment, or embarrass them.
+                </p>
+                <p>
+                    j.<input type="checkbox" name="RemoveSchoolCB"> Not remove the Children from their school, child-care facility, or the Applicant’s possession.
+                </p>
+                <p>
+                    k.<input type="checkbox" name="RemoveJurisdictionCB"> Not remove the Children from the jurisdiction of the Court.
+                </p>
+                <p>
+                    l.<input type="checkbox" name="ServiceAnimalCB"> Not harm, or interfere with the care, custody, or control of the following pet, companion animal, or assistance
+                    animal: <input type="text" name="ServiceAnimal"> (describe the animal).
+                </p>
+                <p>
+                    m. <input type="checkbox" name="InterfereResidenceCB">Not interfere with the Applicant’s use of the Residence located at:<br>
+                    <input type="text" name="ApplicantResidence">, including, but not limited to, disconnecting
+                    utilities or telephone service or causing such services to be disconnected.
+                </p>
+                <p>
+                    n.<input type="checkbox" name="InterferePropertyCB"> Not interfere with the Applicant’s use and possession of the following property:<br>
+                    <textarea rows="4" cols="50" name="InterfereProperty"></textarea>
+                </p>
+                <p>
+                    o. <input type="checkbox" name="DamagePropertyCB">Not damage, transfer, encumber, or otherwise dispose of any property jointly owned or leased by the Applicant
+                    and Respondent, except in the ordinary course of business or for reasonable and necessary living expenses,
+                    including, but not limited to, removing or disabling any vehicle owned or possessed by the Applicant or jointly
+                    by the parties (whether so titled or not)
+                </p>
+                <p>
+                    <h4>Order: Vacate residency immediately</h4> 
+                    The Court finds that the Residence located at:<input type="text" name="ApplicantResidenceLocation"><br>
+                    (Check one):<br>
+                    <input type="checkbox" name="JointlyOwnedCB">is jointly owned or leased by the Applicant and Respondent;<br>
+                    <input type="checkbox" name="ApplicantOwnedCB">is solely owned or leased by the Applicant; or<br>
+                    <input type="checkbox" name="RespondentOwnedCB">is solely owned or leased by the Respondent; and the Respondent is obligated to support the Applicant or a child<br>
+                    in the Applicant’s possession.<br>
+                    The Court further finds that the Applicant currently resides at the Residence, or has resided there within 30 days<br>
+                    prior to the filing of the Application for Protective Order in this case, and that the Respondent has committed family<br>
+                    violence against a member of the household within 30 days prior to the filing of the Application for Protective Order<br>
+                    in this case. There is a clear and present danger that the Respondent is likely to commit family violence against a<br>
+                    member of the household.<br>
+                    The Respondent is therefore ORDERED to vacate the Residence on or before:<input type="text" name="VacateTime"> <input type="checkbox" name="VacateTimeAMCB"> a.m. <input type="checkbox" name="VacateTimePMCB"> p.m. on: <input type="text" name="VacateDate">(date)<br>
+                    and to remain at least 200 yards away from the Residence until further order of the Court. The Applicant shall have<br>
+                    exclusive use and possession of the Residence until further order of the Court.<br>
+                    IT IS FURTHER ORDERED that the sheriff, constable, or chief of police shall provide a law enforcement officer to<br>
+                    accompany the Applicant to the Residence, to inform the Respondent that the Court has ordered the Respondent<br>
+                    to vacate the Residence, and to provide protection while the Applicant takes possession of the Residence, and if<br>
+                    the Respondent refuses to vacate the Residence, provide protection while the Applicant takes possession of the<br>
+                    Applicant’s necessary personal property<br>
+                </p>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

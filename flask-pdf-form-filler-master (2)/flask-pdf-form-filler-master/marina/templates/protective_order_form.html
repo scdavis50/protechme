@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <title>Protective Order Form</title>
+        <h1>Protective Order form</h1>
+        <form method="post">
+            <p>Please type in your email!</p>
+            <input type="text" name="email"><br>
+            <p>What is your Cause Number</p>
+            <input type="text" name="Case_No"><br>
+            <p>What is the Court Type</p>
+            <input type="text" name="CourtType"><br>
+            <p>In which county is the court?</p>
+            <input type="text" name="Court_County"><br>
+            <p>What is the Applicant Name?</p>
+            <input type="text" name="Applicant_Name"><br>
+            <p>What is the respondent name?</p>
+            <input type="text" name="Respondent_Name"><br>
+            <h4>Temporary Ex Parte Protective Order</h4>
+            <p>
+                A court hearing was held on: <input type="text" name="Court_Date"> (date), Time: 
+                <input type="text" name="Court_Time"> 
+                <input type="radio" name="CourtAMCBR" value="yes">AM
+                <input type="radio" name="CourtPMCBR" value="no">PM <br>
+                Court address: <input type="text" name="CourtAddress">
+            </p>
+            <p>
+                Findings: All legal requirements have been met, and the Court has jurisdiction over the parties and this case. This
+                Order is in the best interests of the Protected Person(s) and is necessary to prevent future family violence.
+            </p>
+            <p>
+                <input type="checkbox" name="Intimate_PartnersCB">The Applicant and Respondent are spouses, former spouses, parents of the same child, live-in partners, or
+                former live-in partners, and are thus “intimate partners” as defined by 18 U.S.C. § 921(a)(32).<br>
+                <input type="checkbox" name="AgreedTermsCB">The parties have agreed to the terms of this Protective Order.
+            </p>
+            <p>
+                Statutory grounds for the Protective Order have been established. (Check one or both):<br>
+                <input type="checkbox" name="ViolenceLikelyCB">The Respondent has committed family violence against the Applicant or Children named below and is likely to
+                    commit family violence in the future.
+                <input type="checkbox" name="ExpiredOrderCB">The Respondent has violated a prior Protective Order that expired or will expire within 30 days.
+            </p>
+            <p>
+                <h4>1 Appearances:</h4>(Check any that apply):<br>
+                Applicant Respondent<br>
+                <input type="checkbox" name="ApplicantInPersonCB"><input type="checkbox" name="RespondentAppearedCB">Appeared in person and announced ready.<br>
+                <input type="checkbox" name="ApplicantInPersonAttyCB"><input type="checkbox" name="RespondentAppearedAttyCB"> Appeared in person and by attorney, <input type="text" name="Attorney">, and announced ready.<br>
+                <input type="checkbox" name="ApplicantInPersonSigCB"><input type="checkbox" name="RespondentAppearedSigCB">Appeared by signature below evidencing agreement to the entry of this Protective Order.<br>
+                <input type="checkbox" name="ApplicantDNACB"><input type="checkbox" name="RespondentDNACB">Although duly cited, did not appear and wholly made default.<br>    
+            </p>
+            <p>
+                <h4>2 Protected People: The following people are protected by the terms of this Protective Order:</h4>
+                Name: County of Residence:<br>
+                <input type="checkbox" name="ApplicantProtectedCB">Applicant: <input type="text" name="ApplicantName2"> <input type="text" name="ApplicantResidenceCounty"><br>
+                <input type="checkbox" name="ChildrenProtectedCB">Children 1 <input type="text" name="Child1Name"> <input type="text" name="Child1County"><br>
+                Children 2 <input type="text" name="Child2Name"> <input type="text" name="Child2County"><br>
+                Children 3 <input type="text" name="Child3Name"> <input type="text" name="Child3County"><br>
+                <input type="checkbox" name="OtherAdultsProtectedCB">Other <input type="text" name="OtherAdult1Name"> <input type="text" name="OtherAdult1County"><br>
+                Adults <input type="text" name="OtherAdultName2"> <input type="text" name="OtherAdult2County"><br>
+            </p>
+            <p>
+                <h4>3 A Record of Testimony</h4> (Check one): <input type="checkbox" name="TestimonyMadeCB"> was made by: <input type="text" name="Recorder">   <input type="checkbox" name="TestimonyWaivedCB">was waived by the parties.
+            </p>
+            <p>
+                <h4>Protective Orders — To prevent family violence, the Court orders the Respondent to obey all Orders<br>
+                    marked with a check. The Respondent must:</h4>
+                a. <input type="checkbox" name="NoHarmCB"> Not commit an act against any person named in 2 above that is intended to result in physical harm,<br>
+                bodily injury, assault, or sexual assault or that is a threat that reasonably places those people in fear of<br>
+                imminent physical harm, bodily injury, assault, or sexual assault.<br>
+                b. <input type="checkbox" name="NoThreatCB"> Not communicate in a threatening or harassing manner with any person named in 2 above.<br>
+                c. <input type="checkbox" name="NoThreatbyOthersCB"> Not communicate a threat through any person to anyone named in 2 above.<br>
+                d. <input type="checkbox" name="DontCommunicateCB">Not communicate or attempt to communicate in any manner with: (Check all that apply)<br>
+                <input type="checkbox" name="NoCommApplicantCB">Applicant <input type="checkbox" name="NoCommChildCB">Children <input type="checkbox" name="NoCommOtherCB"> Other Adults in 2 above (except through: <input type="text" name="Communicant"> )<br>
+                Good cause exists for prohibiting the Respondent’s direct communications.<br>
+                e. <input type="checkbox" name="Away200CB"> Not go within 200 yards of the: (Check all that apply)<br>
+                <input type="checkbox" name="Away200ApplicantCB"> Applicant <input type="checkbox" name="Away200ChildCB"> Children  <input type="checkbox" name="Away200OtherCB">Other Adults named in 2 above.<br>
+                (Except to go to court hearings or to exchange Children as authorized by a court order)<br>
+                f. <input type="checkbox" name="Away200ResCB">Not go within 200 yards of the Residence, workplace or school of the: (Check all that apply)<br>
+                <input type="checkbox" name="Away200ResApplicantCB">Applicant Other <input type="checkbox" name="Away200ResOtherCB">Adults named in 2 above.<br>
+                The addresses of the prohibited locations are: (Check all that apply)<br>
+                <input type="checkbox" name="ApplicantAddConfidentialCB">Deemed confidential. The clerk is ordered to strike the information from all public court<br>
+                records and maintain a confidential record of the information for Court use only.<br>
+                <input type="checkbox" name="ApplicantAddDisclosedCB">Disclosed as follows:<br>
+                Applicant’s Residence:<input type="text" name="Away200ApplicantResidence"><br>
+                Applicant’s Workplace/School: <input type="text" name="Away200ApplicantSchool"><br>
+                Other: <input type="text" name="Away200ApplicantOther"><br>
+                g. <input type="checkbox" name="Away200ChildResCB">Not go within 200 yards of the Children’s Residence, child-care facility, or school, except as<br>
+                authorized by a court order. The addresses of the prohibited locations are: (Check all that apply)<br>
+                <input type="checkbox" name="ApplicantChildConfidentialCB"> Deemed confidential. The clerk is ordered to strike the information from all public court<br>
+                records and maintain a confidential record of the information for Court use only.<br>
+                <input type="checkbox" name="ApplicantChildDisclosedCB">Disclosed as follows:<br>
+                Children’s Residence: <input type="text" name="Away200ChildResidence"><br>
+                Children’s Child-care/School: <input type="text" name="Away200ChildSchool"><br>
+                Other: <input type="text" name="Away200ChildOther"><br>
+                h.<input type="checkbox" name="NoStalkCB"> Not stalk, follow or engage in conduct directed specifically to any person named in 2 above that is<br>
+                reasonably likely to harass, annoy, alarm, abuse, torment, or embarrass them<br>
+            </p>
+            <h4>5 Family Violence Prevention Program</h4>
+            <p>
+                <input type="checkbox" name="RespondentEnrollCB">The Respondent is ordered to enroll in, pay costs for, and enter the program checked below no later than<br>
+                __ / __ / __(month/day/year), and to complete the program by __ / __ / __(month/day/year). (Check one):<br>
+                <input type="checkbox" name="MeetsGuildelinesCB">The local Battering Intervention and Prevention Program that meets the guidelines adopted by the<br>
+                community justice assistance division of the Texas Department of Criminal Justice:<br>
+                <input type="text" name="ViolenceProgram"><br>
+                Or if no such Battering Intervention and Prevention Program is available, then:<br>
+                <input type="checkbox" name="CounselingCB">A counseling program recommended and conducted by the following social worker, family service<br>
+                agency, physician, psychologist, licensed therapist, or licensed professional counselor:<br>
+                <input type="text" name="OtherProgram">
+                <input type="checkbox" name="CounselingOtherCB">The Respondent is ordered to comply with any recommendation or referral for additional or alternate<br>
+                counseling within seven (7) days of the recommendation, and ordered to complete any additional or<br>
+                alternate program recommended. The Respondent is ordered to sign a waiver for release of information<br>
+                upon enrollment so that participation in the program may be monitored by the Applicant and/or the Court.<br>
+                <input type="checkbox" name="ViolenceProvisionsCB">The Respondent must also follow these provisions to prevent family violence:<br>
+                <textarea rows="4" cols="50" name="ViolenceProvisions"></textarea>
+            </p>
+            <h4>6 Property Orders</h4>
+            <p>PropertyOrdersCB
+                <input type="checkbox" name="PropertyOrdersCB">The Court finds that the Residence located at: <input type="text" name="ResidenceAddress"><br>
+                (Check one):<br>
+                <input type="checkbox" name="JointlyOwnedCB">is jointly owned or leased by the Applicant and Respondent;<br>
+                <input type="checkbox" name="ApplicantOwnedCB">is solely owned or leased by the Applicant; or<br>
+                <input type="checkbox" name="RespondentOwnedCB">is solely owned or leased by the Respondent; and the Respondent is obligated to support the Applicant<br>
+                or a child in the Applicant’s possession.<br>
+                <input type="checkbox" name="VacateResidenceCB">IT IS ORDERED that the Applicant shall have exclusive use of the Residence identified above, and the<br>
+                Respondent must vacate the Residence no later than:  <input type="text" name="VacateTime"> <input type="checkbox" name="VacateAMCB">a.m. <input type="checkbox" name="VacatePMCB"> p.m. on (date):  <input type="text" name="VacateDate">.<br>
+                <input type="checkbox" name="LEOEscortCB">IT IS FURTHER ORDERED that the sheriff, constable, or chief of police shall provide a law enforcement<br>
+                officer to accompany the Applicant to the Residence, to inform the Respondent that the Court has ordered<br>
+                the Respondent to be excluded from the Residence, to provide protection while the Applicant takes<br>
+                possession of the Residence and the Respondent removes any necessary personal property, and, if the<br>
+                Respondent refuses to vacate the Residence, to remove the Respondent from the Residence and arrest the<br>
+                Respondent for violating the Court’s Order<br>
+            </p>
+            <h4>7 Other Property Orders</h4>
+            <p>
+                <input type="checkbox" name="JointPropertyCB">The Court finds that the Applicant and Respondent jointly own or lease the following Additional Property,<br>
+                and awards the Applicant the exclusive use of:<br>
+                <textarea rows="4" cols="50" name="JointProperty Description">
+            </p>
+            <h4>8 Spousal Support Order</h4>
+            <p>
+                <input type="checkbox" name="SpousalSupportCB">IT IS ORDERED that the Respondent pay the Applicant support in the amount of $<input type="text" name="PaymentAmount">  per month,
+                with the first payment due and payable on <input type="text" name="PaymentMonth"> / <input type="text" name="PaymentDay"> / <input type="text" name="PaymentYear"> and a like payment due and payable on the <input type="text" name="PaymentDayofMonth"> 
+                day of each following month until further Order of this Court. IT IS ORDERED that all payments be sent to
+                the Applicant at the address listed below and postmarked on or before the due date for each payment:
+                <input type="text" name="PaymentAddress"> 
+            </p>
+            <h4>9 Orders Related to Removal, Possession and Support of Children</h4>
+            <p>
+                The Court finds that the Respondent is a parent of the Children. The Protective Order below is in the best<br>
+                interests of the Applicant, Children, and/or Other Adults named in 2 above.<br>
+                <input type="checkbox" name="ChildrenRemovalCB"><h4>Removal — Check one or both:</h4>
+                The Respondent must:<br>
+                <input type="checkbox" name="RemoveSchoolCB">Not remove the Children from the Applicant’s possession or from their child-care facility or school,<br>
+                except as specifically authorized in a possession schedule ordered by the Court.<br>
+                <input type="checkbox" name="RemovalJurisdictionCB">Not remove the Children from the jurisdiction of the Court.<br>
+                <input type="checkbox" name="ChildrenPossessionCB"><h4>Possession — Check one:</h4>
+                <input type="checkbox" name="ChildNoAccessCB">The Applicant is granted exclusive possession of the Children, and the Respondent shall have no<br>
+                possession or access to the Children, unless and until further Orders are entered by the Court. This<br>
+                Order supersedes any previous order granting the Respondent possession or access to the Children.<br>
+                <input type="checkbox" name="ChildScheduleCB">The Applicant is granted primary possession of the Children, and the Respondent may have<br>
+                possession of the Children pursuant to the possession schedule attached to this Protective Order as<br>
+                Exhibit A, subject to the terms and conditions stated herein as necessary for the safety of the<br>
+                Applicant and the Children. The possession schedule hereby ordered supersedes any previous<br>
+                order granting the Respondent possession and access to the Children.<br>
+                <input type="checkbox" name="PreviousScheduleCB">The possession schedule previously entered on <input type="text" name="OldCaseMonth"> / <input type="text" name="OldCaseDay"> / <input type="text" name="OldCaseYear">, in case number  <input type="text" name="OldCaseNo"> ,<br>
+                styled <input type="text" name="PriorCase"> , shall continue to<br>
+                govern the Respondent’s possession and access to the Children, except that no exchanges of the<br>
+                Children shall occur at a prohibited location described in this Protective Order.<br>
+            </p>
+            <p>
+                Child Support — Nothing in this Protective Order shall be construed as relieving the Respondent<br>
+                of any past or future obligation to pay child support as previously ordered. — Check one:<br>
+                <input type="checkbox" name="ChildSupportCB">The Respondent is ordered to pay child support to the Applicant in the amount of $<input type="text" name="ChildSupportAmount"><br>
+                per month, with the first such payment due and payable on <input type="text" name="ChildSupportMonth"> / <input type="text" name="ChildSupportDay"> / <input type="text" name="ChildSupportYear">, and a like payment<br>
+                due and payable on the <input type="text" name="ChildSupportDueDay"> day of each month thereafter for the term of this Protective<br>
+                Order or until further Order of the Court, whichever occurs first.<br>
+                The Respondent is ordered to make all child support payments payable to the Applicant, and<br>
+                must mail all payments to:<br>
+                Texas Child Support Disbursement Unit, P.O. Box 659791, San Antonio, TX 78265-9791<br>
+                That agency will send the payment to the Applicant for the support of the Children. The<br>
+                Respondent must keep the child support registry informed of the Respondent’s Residence and<br>
+                work addresses.<br>
+                On this date, the Court signed an Income Withholding Order, ordering the employer and any<br>
+                subsequent employer of the Respondent to withhold court-ordered child support from the<br>
+                Respondent’s earnings. The existence of the Order for withholding from earnings for child<br>
+                support does not excuse the Respondent from personally making any child support<br>
+                payment herein, except to the extent the Respondent’s employer actually makes the<br>
+                payment on behalf of the Respondent.<br>
+                <input type="checkbox" name="PreviousChildSupportCB">The child support Order previously entered on <input type="text" name="CSOldCaseMonth"> / <input type="text" name="CSOldCaseDay"> / <input type="text" name="CSOldCaseYear">, in case number <input type="text" name="OldChildSupportCaseNo">,<br>
+                styled <input type="text" name="PriorCaseChildSupport">, shall continue to govern the<br>
+                Respondent’s child support obligations with respect to the Children<br>
+            </p>
+        </form> 
+    </body>
+</html>
